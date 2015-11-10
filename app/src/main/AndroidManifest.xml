@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.hairstyle" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fun"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AlbumActivity"
+            android:label="@string/title_activity_album" >
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name=".PhotoEditActivity"
+            android:label="@string/title_activity_photo_edit" >
+        </activity>
+        <activity
+            android:name=".ViewPhotoActivity"
+            android:label="@string/title_activity_view_photo" >
+        </activity>
+        <activity
+            android:name=".camera_sample"
+            android:label="@string/title_activity_camera_sample" >
+        </activity>
+        <activity
+            android:name=".preview_image_sample"
+            android:label="@string/title_activity_preview_image_sample" >
+        </activity>
+        <activity
+            android:name=".PreviewImageActivity"
+            android:label="@string/title_activity_preview_image"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".EditImageActivity"
+            android:label="@string/title_activity_edit_image"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".HairStyleCategoriesActivity"
+            android:label="@string/title_activity_hair_stle_categories" >
+        </activity>
+    </application>
+
+</manifest>

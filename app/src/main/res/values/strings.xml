@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Hairstyle</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_main">Hairstyle</string>
+    <string name="title_activity_album">AlbumActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_photo_edit">Photo Edit</string>
+    <string name="title_activity_view_photo">Photo View</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="title_activity_camera_sample">camera_sample</string>
+    <string name="title_activity_preview_image_sample">preview_image_sample</string>
+    <string name="title_activity_preview_image">PreviewImageActivity</string>
+    <string name="title_activity_edit_image">EditImageActivity</string>
+    <string name="title_activity_hair_stle_categories">HairStleCategoriesActivity</string>
+</resources>

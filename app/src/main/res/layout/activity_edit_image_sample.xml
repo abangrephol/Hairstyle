@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.hairstyle.camera_sample">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView5"
+            android:src="@drawable/sample2"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imageView6"
+                        android:src="@drawable/bob3" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imageView7"
+                        android:src="@drawable/bob4" />
+
+                </LinearLayout>
+
+                <com.melnykov.fab.FloatingActionButton
+                    android:id="@+id/saveEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:src="@drawable/ic_check_white_18dp"
+                    fab:fab_colorNormal="#e91e62"
+                    fab:fab_colorPressed="#ba0c50"
+                    fab:fab_colorRipple="#ba0c50"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center|right" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:layout_gravity="bottom|center"
+                android:background="#aa383838">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left">
+
+                    <com.melnykov.fab.FloatingActionButton
+                        android:id="@+id/rotateleft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/ic_rotate_left_white_18dp"
+                        fab:fab_colorNormal="#e91e62"
+                        fab:fab_colorPressed="#ba0c50"
+                        fab:fab_colorRipple="#ba0c50"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center" />
+
+                    <com.melnykov.fab.FloatingActionButton
+                        android:id="@+id/rotateright"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:src="@drawable/ic_rotate_right_white_18dp"
+                        fab:fab_colorNormal="#e91e62"
+                        fab:fab_colorPressed="#ba0c50"
+                        fab:fab_colorRipple="#ba0c50"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <com.melnykov.fab.FloatingActionButton
+                        android:id="@+id/left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_chevron_left_white_18dp"
+                        fab:fab_colorNormal="#e91e62"
+                        fab:fab_colorPressed="#ba0c50"
+                        fab:fab_colorRipple="#ba0c50"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="50dp" />
+
+                    <com.melnykov.fab.FloatingActionButton
+                        android:id="@+id/right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_chevron_right_white_18dp"
+                        fab:fab_colorNormal="#e91e62"
+                        fab:fab_colorPressed="#ba0c50"
+                        fab:fab_colorRipple="#ba0c50"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp" />
+
+                    <com.melnykov.fab.FloatingActionButton
+                        android:id="@+id/up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_expand_less_white_18dp"
+                        fab:fab_colorNormal="#e91e62"
+                        fab:fab_colorPressed="#ba0c50"
+                        fab:fab_colorRipple="#ba0c50"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="50dp" />
+
+                    <com.melnykov.fab.FloatingActionButton
+                        android:id="@+id/down"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_expand_more_white_18dp"
+                        fab:fab_colorNormal="#e91e62"
+                        fab:fab_colorPressed="#ba0c50"
+                        fab:fab_colorRipple="#ba0c50"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50dp" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <com.melnykov.fab.FloatingActionButton
+                        android:id="@+id/increaseSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/ic_add_white_18dp"
+                        fab:fab_colorNormal="#e91e62"
+                        fab:fab_colorPressed="#ba0c50"
+                        fab:fab_colorRipple="#ba0c50"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center" />
+
+                    <com.melnykov.fab.FloatingActionButton
+                        android:id="@+id/decreaseSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:src="@drawable/ic_remove_white_18dp"
+                        fab:fab_colorNormal="#e91e62"
+                        fab:fab_colorPressed="#ba0c50"
+                        fab:fab_colorRipple="#ba0c50"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</RelativeLayout>
