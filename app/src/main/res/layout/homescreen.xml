@@ -94,13 +94,6 @@
                     android:id="@+id/textView3"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#ffffff" />
-                <com.gc.materialdesign.views.ScrollView
-                    xmlns:android="http://schemas.android.com/apk/res/android"
-                    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/scroll"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                </com.gc.materialdesign.views.ScrollView>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
